@@ -1,0 +1,46 @@
+<html !DOCTYPE html>
+<html>
+<head>
+    <title>SHIV</title>
+    <link type="text/css" rel="stylesheet" href="style1.css"></link>
+    <link type="text/css" rel="stylesheet" href="style2.css"></link>
+   
+    <style type="text/css">
+ 
+        body{
+            background-color: rgb(222,184,135);
+        }
+       
+        h1{
+            background-color: white;
+            text-align: center;
+           font-family: serif;
+                }
+ 
+        div{
+            background-color: orange;
+            text-align: center;
+        }
+ 
+        p{
+             background-color: white;
+        }
+ 
+        .hi{
+            color:lime;
+        }
+    </style>
+</head>
+<body>
+   <h1>Hi,This is the internal CSS page</h1>
+   
+    <div>
+    <strong>Hellow</strong>
+    <p class=hi style="background-color: gray">This is the inline CSS paragraph</p>  
+     <p class="hi" >hi</p>
+    </div>
+ 
+    <h2>Hi this is the external CSS linking</h2>
+</body>
+</html>
+ 
